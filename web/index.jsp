@@ -11,9 +11,10 @@
     <title>Login Page</title>
 </head>
 <body>
+<h1> WELCOME TO LOGIN PAGE</h1>
 <form action="/LoginController" method="post">
-    Name:<input type="text" name="username"/><br/><br/>
-    Password:<input type="password" name="password"/><br/><br/>
+    User Name :<input type="text" name="username"/><br/><br/>
+    Password :<input type="password" name="password"/><br/><br/>
     <input type="submit" value="login"/>
 
 </form>
