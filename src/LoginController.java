@@ -17,7 +17,7 @@ public class LoginController extends HttpServlet {
 
         if (LoginDao.validate(user, pass)) {
 
-            RequestDispatcher rd = request.getRequestDispatcher("home.jsp");
+            RequestDispatcher rd = request.getRequestDispatcher("blog.jsp");
             rd.forward(request, response);
 
 
